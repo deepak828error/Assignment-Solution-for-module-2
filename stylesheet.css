@@ -1,0 +1,46 @@
+#menu {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+}
+.flex-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+}
+.flex-container > div {
+  width: 300px;
+
+  background-color: grey;
+  font-size: 15px;
+  margin: 10px;
+  padding: 15px;
+  border-style: solid;
+}
+#chick {
+  background-color: pink;
+  width: 60px;
+  border-style: solid;
+  padding: 5px;
+}
+#be {
+  background-color: red;
+
+  width: 60px;
+  border-style: solid;
+  padding: 5px;
+}
+#su {
+  background-color: burlywood;
+
+  width: 60px;
+  border-style: solid;
+  padding: 5px;
+}
+p {
+  font-family: sans-serif;
+}
